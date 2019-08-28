@@ -19,3 +19,31 @@ body{
 .url{
     color:#9999ff
 }
+.feedback-hedder{
+     display: flex;
+     justify-content: center
+}
+.moved-cars{
+     display: flex;
+     justify-content: center
+}
+.about{
+     display: flex;
+     justify-content: center
+}
+.contacts{
+     display: flex;
+     justify-content: center
+}
+.logo{
+    display:flex;
+    justify-content:space-around;
+}
+#location{
+    display: flex;
+    justify-content:center
+}
+.description{
+    display: flex;
+    justify-content: space-evenly
+}
