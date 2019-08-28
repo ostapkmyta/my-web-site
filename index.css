@@ -1,7 +1,21 @@
-*{
+body{
     background-color:#ffff1a
 }
 
-li{
-    
+
+.footer{
+   background-color: black
+
+}
+#location{
+    color: white
+}
+#phone{
+    color: white
+}
+#contacts{
+    color:white
+}
+.url{
+    color:#9999ff
 }
