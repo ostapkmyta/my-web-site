@@ -14,7 +14,7 @@ body{
     color: white
 }
 #contacts{
-    color:white
+    color:white;
 }
 .url{
     color:#9999ff
@@ -46,4 +46,8 @@ body{
 .description{
     display: flex;
     justify-content: space-evenly
+}
+.about-us{
+    line-height: 1.5;
+	padding: 30px;
 }
