@@ -18,9 +18,14 @@ header #main-header{
 }
 
 
-.footer{
-   background-color: black
-
+footer {
+    background-color: #000000;
+    color: white;
+    display: block;
+    height: 300px;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 #location{
     color: white
@@ -95,6 +100,11 @@ header nav .menu li a:hover{
     header nav .menu{
         flex: 1;
     }
+
+    header .baner h3{
+        display: flex;
+        align-items: center;
+    }
 }
 header .banner{
     background-image: url(../images/banner_bmw.jpg);
@@ -111,38 +121,34 @@ header .banner h3{
     color: #ebebfa;
 }
 
-.myButton {
-	-moz-box-shadow:inset 0px -16px 0px 0px #000000;
-	-webkit-box-shadow:inset 0px -16px 0px 0px #000000;
-	box-shadow:inset 0px -16px 0px 0px #000000;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #000000));
-	background:-moz-linear-gradient(top, #000000 5%, #000000 100%);
-	background:-webkit-linear-gradient(top, #000000 5%, #000000 100%);
-	background:-o-linear-gradient(top, #000000 5%, #000000 100%);
-	background:-ms-linear-gradient(top, #000000 5%, #000000 100%);
-	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000',GradientType=0);
-	background-color:#000000;
-	border:1px solid #000000;
-	display:inline-block;
-	cursor:pointer;
-	color:#fff200;
-	font-family:Arial;
-	font-size:15px;
-	padding:6px 23px;
-	text-decoration:none;
+.container{
+  width:450px;
+ height: 300px;
+ text-align: center;
 }
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #000000));
-	background:-moz-linear-gradient(top, #000000 5%, #000000 100%);
-	background:-webkit-linear-gradient(top, #000000 5%, #000000 100%);
-	background:-o-linear-gradient(top, #000000 5%, #000000 100%);
-	background:-ms-linear-gradient(top, #000000 5%, #000000 100%);
-	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000',GradientType=0);
-	background-color:#000000;
+input[type="text"],input[type="email"],input[type="message"]{
+ width: 300px;
+ height:30px;
+ font-size: 18px;
+ margin-bottom: 25px;
+ border-radius: 4px;
+ padding-left: 10px;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
+
+.dws-submit {
+ padding: 13px 30px;
+ margin: 5px 0 20px 0;
+ font-size: 15px;
+ color: #fff;
+ background-color: #000000;
+ border: none;
+ border-bottom: 4px solid #000000;
+ cursor: pointer;
 }
+.dws-submit:hover{
+ transition: all 0.5s;
+ background: #fff;
+ color: #c5d0d6;
+}
+
+

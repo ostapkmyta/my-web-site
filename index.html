@@ -33,7 +33,7 @@
         <main>
             <section id="home">
                 <h2 class="about">Про нас</h2>
-                <p class="about-us">Ми компанія, яка спеціалізується на перевезеннях нових та вживаних автомобілів з
+                <p class="about-us" align="center">Ми компанія, яка спеціалізується на перевезеннях нових та вживаних автомобілів з
            Європи та США. Наша компанія спеціалізується на перевезеннях з допомогою автовозів
            та беспосередн'є перевезення автомобіля водієм, якого надає наша компанія. EZ Cars займається
            перевезенням під ключ, тобто ми знайдемо авто, перевіремо його та доставимо у ваше місто.
@@ -53,45 +53,44 @@
             </section>
             <section id="feedback">
                 <h2 class="feedback-hedder">Зворотній зв'язок</h2>
-                <form method="POST" action="https://formspree.io/ostapikkmyta@gmail.com">
-                    <label for="user-e-mail">E-mail:</label>
-                    <input id="user-e-mail" type="email" name="user e-mail">
-                    <br>
-                    <label>
-                        Ім'я: <input type="text" name="user-s name">
-                    </label>
-                    <br>
-                    <label>
-                        Повідомлення: <textarea name="massage" cols="30" rows="10"></textarea>
-                    </label>
-                    <br>
-                    <div class="round">
-                      <a href="https://formspree.io/ostapikkmyta@gmail.com" class="myButton">ВІДПРАВИТИ</a>
-		            </div>
-
-                    <br>
-                    <br>
-                </form>
+               <div class="container">
+	               <form>
+                       <div class="dws-input">
+		                <input type="text" name="username" placeholder="Ваше ім'я">
+                       </div>
+                       <div class="dws-input">
+		                <input type="email" name="e-mail" placeholder="Ваш e-mail">
+                       </div>
+                       <div class="dws-input">
+                        <input type="message" name="message" placeholder="Повідомлення">
+                       </div>
+                        <input class="dws-submit" type="submit" name="submit" value="Надіслати">
+                    </form>
+               </div>
             </section>
             <section id="contacts">
                 <footer class="footer">
                     <h2 class="contacts">Контакти</h2>
-                    <div class="logo">
-                        <img src="images/phone.png" alt="phone" width="23">
-                        <img src="images/location.png" alt="location" width="50">
-                        <img src="images/web.png" alt="web" width="35">
+
+
+                      <img id="ph" src="images/phone.png" alt="phone" width="23">
+                      <img id="loc" src="images/location.png" alt="location" width="50">
+                      <img id="wb" src="images/web.png" alt="web" width="35">
                     </div>
-                    <p id="location">м.Львів вул.Пекарсьа 43
+
+                    <p id="tel">
+                        Тел. +380955346741
                     </p>
-                    <p id="phone">Тел. +380955346741
-                                         2328332
+                    <p id="str">
+                        м.Львів вул.Пекарська 43
                     </p>
-                    <div class="social">
-                        <img src="images/FB_logo.png" alt="facebook logo" width="30">
-                        <img src="images/Inst_logo.png" alt="insta logo" width="30">
-                    </div>
-                    <a class="url" href="https://www.facebook.com/groups/775954252791179/">https://www.facebook.com</a>
-                    <a class="url" href="https://www.instagram.com/ez_cars_import/">https://www.instagram.com</a>
+
+
+
+                    <img id="fb" src="images/FB_logo.png" alt="facebook logo" width="30">
+                    <img id="inst" src="images/Inst_logo.png" alt="insta logo" width="30">
+
+
                 </footer>
             </section>
         </main>
