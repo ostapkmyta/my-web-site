@@ -70,6 +70,7 @@ footer {
 .about-us{
     line-height: 1.5;
 	padding: 30px;
+    text-align: center;
 }
 
 header nav .menu{
@@ -101,32 +102,57 @@ header nav .menu li a:hover{
         flex: 1;
     }
 
-    header .baner h3{
-        display: flex;
+    header .banner h3{
+        font-size: 2.5rem;
+        color: #ebebfa;
+        display:flex;
         align-items: center;
+
     }
+    main #galery #first-car{
+      width: 500px;
+      display:block
+    }
+
+    main #galery #second-car{
+      width: 500px;
+      display:block
+    }
+
+    main #galery #third-car{
+      width: 500px;
+      display:block
+    }
+
+
 }
+
+
+
 header .banner{
     background-image: url(../images/banner_bmw.jpg);
     background-position: center;
-    background-position: cover;
+    background-size: cover;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header .banner h3{
-    font-size: 3rem;
-    color: #ebebfa;
-}
+
+
+
+
 
 .container{
-  width:450px;
+ width:450px;
  height: 300px;
  text-align: center;
+ display: flex;
+ justify-content: center;
+ margin: auto;
 }
-input[type="text"],input[type="email"],input[type="message"]{
+input[type="text"],input[type="email"],input[type="text"]{
  width: 300px;
  height:30px;
  font-size: 18px;
@@ -150,5 +176,7 @@ input[type="text"],input[type="email"],input[type="message"]{
  background: #fff;
  color: #c5d0d6;
 }
+
+
 
 
