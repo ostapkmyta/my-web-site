@@ -11,6 +11,8 @@ body{
 }
 
 
+
+
 header #main-header{
     font-family: 'Teko', sans-serif;
     font-size: 4rem;
@@ -78,6 +80,7 @@ header nav .menu{
     padding: 0;
     list-style-type: none;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 header nav .menu li a{
@@ -90,6 +93,15 @@ header nav .menu li a{
 
 header nav .menu li a:hover{
     border: 1px solid black;
+}
+
+header .banner h3{
+    font-size: 1.7rem;
+    color: #ebebfa;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 @media (min-width:600px){
@@ -106,26 +118,28 @@ header nav .menu li a:hover{
         font-size: 2.5rem;
         color: #ebebfa;
         display:flex;
-        align-items: center;
-
+        flex-wrap: wrap;
     }
+}
+
+
     main #galery #first-car{
-      width: 500px;
+      width: 100%;
       display:block
     }
 
     main #galery #second-car{
-      width: 500px;
+      width: 100%;
       display:block
     }
 
     main #galery #third-car{
-      width: 500px;
+      width: 100%;
       display:block
     }
 
 
-}
+
 
 
 
@@ -145,7 +159,7 @@ header .banner{
 
 
 .container{
- width:450px;
+ width:100%;
  height: 300px;
  text-align: center;
  display: flex;
@@ -178,5 +192,8 @@ input[type="text"],input[type="email"],input[type="text"]{
 }
 
 
-
-
+@media(max-width:482px){
+    main .moved-cars{
+        text-align: center;
+    }
+}
