@@ -23,8 +23,7 @@ header #main-header{
 footer {
     background-color: #000000;
     color: white;
-    display: block;
-    height: 300px;
+
     left: 0;
     position: absolute;
     width: 100%;
@@ -107,11 +106,11 @@ header .banner h3{
 
 header .banner .clock{
     font-family: 'Teko', sans-serif;
-    color: #ebebfa;
+    color: #ffa31a;
     font-size: 4rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 6px;
+
 }
 
 @media (min-width:600px){
@@ -165,10 +164,7 @@ header .banner{
     justify-content: center;
 }
 
-header .banner .clock{
-    width: 70px;
-    color: #ebebfa;
-}
+
 
 
 
@@ -213,6 +209,19 @@ input[type="text"],input[type="email"],input[type="text"]{
     main .moved-cars{
         text-align: center;
     }
+
+    input[type="text"],input[type="email"],input[type="text"]{
+           width: 250px;
+           height: 30px;
+    }
+
+     header .banner h3{
+         display: flex;
+         justify-content: center;
+         
+     }
+
+
 }
 
 .icons {
