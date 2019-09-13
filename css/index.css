@@ -1,80 +1,85 @@
-@import url('https://fonts.googleapis.com/css?family=Teko|Varela+Round&display=swap');
-:root{
-    --font-color:black;
-    font-family: 'Varela Round', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Teko|Varela+Round&display=swap'); :root {
+    --font-color:black; font-family: 'Varela Round', sans-serif;
 }
 
-body{
+body {
     max-width: 980px;
-    background-color:#ffff80;
-    margin:auto;
+    background-color: #ffff80;
+    margin: auto;
 }
 
-
-
-
-header #main-header{
+header #main-header {
     font-family: 'Teko', sans-serif;
     font-size: 4rem;
     text-align: center;
 }
 
-
 footer {
     background-color: #000000;
     color: white;
-
     left: 0;
     position: absolute;
     width: 100%;
 }
-#location{
+
+#location {
     color: white
 }
-#phone{
+
+#phone {
     color: white
 }
-#contacts{
-    color:white;
+
+#contacts {
+    color: white;
 }
-.url{
-    color:#9999ff
+
+.url {
+    color: #9999ff
 }
-.feedback-hedder{
-     display: flex;
-     justify-content: center
-}
-.moved-cars{
-     display: flex;
-     justify-content: center
-}
-.about{
-     display: flex;
-     justify-content: center
-}
-.contacts{
-     display: flex;
-     justify-content: center
-}
-.logo{
-    display:flex;
-    justify-content:space-around;
-}
-#location{
+
+.feedback-hedder {
     display: flex;
-    justify-content:center
+    justify-content: center
 }
-.description{
+
+.moved-cars {
+    display: flex;
+    justify-content: center
+}
+
+.about {
+    display: flex;
+    justify-content: center
+}
+
+.contacts {
+    display: flex;
+    justify-content: center
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#location {
+    display: flex;
+    justify-content: center
+}
+
+.description {
     display: flex;
     justify-content: space-evenly
 }
-.about-us{
+
+.about-us {
     line-height: 1.5;
-	padding: 30px;
+    padding: 30px;
     text-align: center;
 }
 
-header nav .menu{
+header nav .menu {
     display: flex;
     padding: 0;
     list-style-type: none;
@@ -82,7 +87,7 @@ header nav .menu{
     flex-wrap: wrap;
 }
 
-header nav .menu li a{
+header nav .menu li a {
     text-decoration: none;
     color: var(--font-color);
     text-transform: uppercase;
@@ -90,70 +95,65 @@ header nav .menu li a{
     padding: 5px;
 }
 
-header nav .menu li a:hover{
+header nav .menu li a:hover {
     color: #b3b3b3;
-
 }
 
-header .banner h3{
+header .banner h3 {
     font-size: 1.7rem;
     color: #ebebfa;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
-header .banner .clock{
+header .banner .clock {
     font-family: 'Teko', sans-serif;
     color: #ffa31a;
     font-size: 4rem;
     display: flex;
     justify-content: center;
-
 }
 
-@media (min-width:600px){
-    header nav{
+@media (min-width: 600px) {
+    header nav {
         display: flex;
         align-items: center;
     }
 
-    header nav .menu{
+    header nav .menu {
         flex: 1;
     }
 
-    header .banner h3{
+    header .banner h3 {
         font-size: 2.5rem;
         color: #ebebfa;
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
 
-    .logos{
+    .logos {
         flex: 1;
     }
 }
 
+main #galery #first-car {
+    width: 100%;
+    display: block
+}
 
-    main #galery #first-car{
-      width: 100%;
-      display:block
-    }
+main #galery #second-car {
+    width: 100%;
+    display: block
+}
 
-    main #galery #second-car{
-      width: 100%;
-      display:block
-    }
+main #galery #third-car {
+    width: 100%;
+    display: block
+}
 
-    main #galery #third-car{
-      width: 100%;
-      display:block
-    }
-
-
-header .banner{
+header .banner {
     background-image: url(../images/banner_bmw.jpg);
     background-position: center;
     background-size: cover;
@@ -164,64 +164,55 @@ header .banner{
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-.container{
- width:100%;
- height: 300px;
- text-align: center;
- display: flex;
- justify-content: center;
- margin: auto;
+.container {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
-input[type="text"],input[type="email"],input[type="text"]{
- width: 300px;
- height:30px;
- font-size: 18px;
- margin-bottom: 25px;
- border-radius: 4px;
- padding-left: 10px;
+
+input[type="text"],input[type="email"],input[type="text"] {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 10px;
 }
 
 .dws-submit {
- padding: 13px 30px;
- margin: 5px 0 20px 0;
- font-size: 15px;
- color: #fff;
- background-color: #000000;
- border: none;
- border-bottom: 4px solid #000000;
- cursor: pointer;
-}
-.dws-submit:hover{
- transition: all 0.5s;
- background: #fff;
- color: #c5d0d6;
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-bottom: 4px solid #000000;
+    cursor: pointer;
 }
 
+.dws-submit:hover {
+    transition: all 0.5s;
+    background: #fff;
+    color: #c5d0d6;
+}
 
-@media(max-width:482px){
-    main .moved-cars{
+@media(max-width: 482px) {
+    main .moved-cars {
         text-align: center;
     }
 
-    input[type="text"],input[type="email"],input[type="text"]{
-           width: 250px;
-           height: 30px;
+    input[type="text"],input[type="email"],input[type="text"] {
+        width: 250px;
+        height: 30px;
     }
 
-     header .banner h3{
-         display: flex;
-         justify-content: center;
-         
-     }
-
-
+    header .banner h3 {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .icons {
@@ -229,55 +220,53 @@ input[type="text"],input[type="email"],input[type="text"]{
     justify-content: space-around;
 }
 
-.calls{
+.calls {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     /* padding-right: 450px; */
 }
 
-
-
-.logos{
+.logos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 5px;
 }
 
-.calls .location{
+.calls .location {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.calls .telephone{
+.calls .telephone {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.location #loc{
+.location #loc {
     width: 50px;
 }
 
-.telephone #ph{
+.telephone #ph {
     width: 23px;
 }
 
-#fbicon{
-     width: 50px;
+#fbicon {
+    width: 50px;
 }
 
-#insticon{
-     width: 50px;
+#insticon {
+    width: 50px;
 }
 
-.logos :hover{
+.logos :hover {
     background-color: #ffffff;
 }
 
-.politics{
+.politics {
     margin-top: 60px;
     display: flex;
     justify-content: center;
